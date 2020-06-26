@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src='main.js'></script>
+    <style>
+        .cuadro{
+            height: 300px;
+            margin-top: 20px ;
+        }
+        
+        .margin{
+            margin-top: 20px
+        }
+
+        #ronda {
+        display: flex;
+        justify-content: flex-end;
+        }
+
+    </style>
+</head>
+<body >
+    <div  class="container margin">
+        <div class="row">
+            <div class="col-md">
+                <button type="button" class="btn btn-primary" id="botonjugar">Empezar</button>
+            </div>
+            <div class="col-md">
+                <p id="ronda">Ronda</p>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="tablero">
+        <div class="row">
+            <div class="col-md">
+                <div style="background-color: red;" class="cuadro"> A </div>
+            </div>
+            <div class="col-md">
+                <div style="background-color: blue;" class="cuadro"> B </div>
+            </div>
+        </div>    
+        <div class="row">
+            <div class="col-md">
+                <div style="background-color: yellow;" class="cuadro"> C </div>
+            </div>
+            <div class="col-md">
+                <div style="background-color: green;" class="cuadro"> D </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
